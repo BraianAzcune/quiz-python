@@ -78,6 +78,25 @@
             - [ ] Error
             - [ ] Nada
 
+            # Condicional IF 2
+
+            ¿Cuál es la salida del siguiente código?
+
+            > Nota: El error ocurre porque print("Menor") no está indentado dentro del else. En Python, estructuras como for, if, y else siempre esperan una línea indentada debajo.
+
+            ```python
+            x = 3
+            if x > 5:
+                print("Mayor")
+            else:
+            print("Menor")
+            ```
+
+            - [ ] Mayor
+            - [ ] Menor
+            - [x] Error
+            - [ ] Nada
+
             # Operadores Aritméticos y de Comparación
 
             ¿Cuál es el valor de la siguiente expresión en Python?
@@ -303,6 +322,51 @@
             - [ ] 10
             - [ ] 15
             - [x] 20
+
+            # Función con Error de Indentacion
+
+            ¿Cuál es la forma correcta de reparar el error en el siguiente código?
+
+            > Nota: El error se debe a que la línea dentro de la función no está indentada. En Python, el contenido de una función debe estar indentado.
+
+            ```python
+            def saludar(nombre):
+            print("Hola " + nombre)
+
+            saludar("Mundo")
+            ```
+
+            - [x] Indentar la línea `print("Hola " + nombre)` dentro de la función.
+            - [ ] Eliminar el colon (:) después de la definición de la función.
+            - [ ] Colocar la llamada a `saludar("Mundo")` dentro de la función.
+            - [ ] Escribir el código sin indentación.
+
+            # Función vacía
+
+            ¿Cuál es la forma correcta de definir una función vacía en Python?
+
+            > Nota: Una función que contiene `return None` no es verdaderamente vacía, ya que aunque Python devuelve `None` por defecto si no se especifica un retorno, incluir `return None` implica que se agregó una instrucción explícita.
+            Una función que tiene un `string` justo después de la definición se utiliza como documentación `(docstring)` que se muestra en el `IDE`; si bien puede parecer vacía, en realidad no lo es, ya que el string se interpreta como documentación.
+            Una función definida sin ningún contenido produce un error de sintaxis, porque Python espera que el cuerpo de la función contenga al menos una instrucción. Por ello, se usa `pass` para indicar explícitamente que la función está vacía.
+
+            - [x] ```python
+            def funcion_vacia():
+                pass
+            ```
+
+            - [ ] ```python
+            def funcion_vacia():
+                return None
+            ```
+
+            - [ ] ```python
+            def funcion_vacia():
+                "No hace nada"
+            ```
+
+            - [ ] ```python
+            def funcion_vacia():
+            ```
 
         </div>
 
